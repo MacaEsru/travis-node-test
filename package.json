@@ -1,17 +1,14 @@
 {
-  "name": "travis-ci",
+  "name": "travis",
   "version": "1.0.0",
-  "description": "a nodejs app",
+  "description": "test node travis",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha --exit"
+    "test": "mocha"
   },
   "author": "gift egwuenu",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.1.2",
-    "express": "^4.16.3",
     "mocha": "^5.2.0"
   }
 }
